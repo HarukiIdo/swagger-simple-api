@@ -1,0 +1,32 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: todo API
+  description: todo
+  contact:
+    name: Haruki Ido
+host: "localhost:1999"
+basePath: /v1
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+
+paths:
+  /todo:
+    get:
+      description: タスク一覧取得
+      responses:
+        "200":
+          description: OK
+          headers: {}
+      deprecated: false
+      x-42c-no-authentication: false
+      x-42c-mtls: false
+      x-42c-sensitivity: 3
+      x-42c-weight-input: 80
+      x-42c-weight-output: 20
+      x-42c-weight-parameters: 50
+      x-42c-weight-requestBody: 50
