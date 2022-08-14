@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/idoharumare/workspace/swagger-simple-api'
+make: Leaving directory `/Users/idoharumare/workspace/swagger-simple-api'
+ 
+make: *** No targets.  Stop.
+
