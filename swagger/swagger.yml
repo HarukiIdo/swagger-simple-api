@@ -45,7 +45,7 @@ paths:
             $ref: "#/definitions/CreateTodoRequest"
       responses:
         "201":
-          description: created
+          description: Created
           schema:
             $ref: "#/definitions/CreateTodoResponse"
 
